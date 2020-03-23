@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My PortFolio Website</title>
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<meta http-equiv="x-UA-Compatible" content="ie=edge">
+ 	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1/dist/css/bootstrap.css">
+ 	<link rel="stylesheet" type="text/css" href="bootstrap-4.3.1/fontawesome/css/css/fontawesome.css">
+ 	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="bootstrap-4.3.1/dist/js/jquery 3.3.1.js"></script>
+ 	<script type="text/javascript" src="bootstrap-4.3.1/dist/js/popper.js"></script>
+	<script type="text/javascript" src="bootstrap-4.3.1/dist/js/bootstrap.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<style type="text/css">
+		body{
+			background: #ccc;
+		}
+		#Header a:hover{
+			color: #fff;
+		}
+		#bg-img{
+			background: url('images/airplane.jpg');
+			background-size: 100%;
+			background-repeat: no-repeat;
+			min-height: 500px;
+		}
+		#About{
+			margin-top: -200px;
+		}
+		#About .fa {
+			color: #fff;
+		}
+		#About span{
+			padding: 10px 20px 10px 20px;
+		}
+		#About hr{
+			border-width: 2px;
+			margin-top: 6px; 
+		}
+
+		#Skills span{
+			padding: 10px 20px 10px 20px;
+
+		}
+
+		#Skills hr{
+			border-width: 2px;
+			margin-top: 6px; 
+		}
+
+		#Experience span{
+			padding: 10px 20px 10px 20px;
+
+		}
+
+		#Experience hr{
+			border-width: 2px;
+			margin-top: 6px; 
+		}
+
+		#Experience .card{
+			border-top: 3px solid #d63031;
+
+		}
+
+		#Contact span{
+			padding: 10px 20px 10px 20px;
+
+		}
+
+		#Contact hr{
+			border-width: 2px;
+			margin-top: 6px; 
+		}
+	</style>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+	<!--Navbar-->
+	<div id="Header">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<div class="container">
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navy">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a href="#" class="navbar-brand">Portfolio</a>
+				<div class="collapse navbar-collapse" id="navy">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a href="#About" class="nav-link">About Me</a></li>
+						<li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+						<li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+						<li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	
+	<!--ShowCase-->
+	<div id="bg-img"></div>
+
+	<!--About Me-->
+	<div id="About">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div id="AboutData">
+						<div class="card bg-white">
+							<div class="card-title my-5">
+								<div class="media">
+									<img src="images/passport.jpg" width="250" height="250" class="img-fluid rounded-top mx-5 d-none d-lg-block d-md-block">
+									<div class="media-body">
+										<h3 class="display-4 ml-5">I'm David O. Ayangunna</h3>
+										<p class="text-muted ml-5">Software Developer & Manager</p>
+										<div class="container">
+											<table class="table table-responsive ml-4">
+												<tr>
+													<td class="text-muted">Email</td>
+													<td>:</td>
+													<td>davidfayreal@gmail.com</td>
+												</tr>
+												<tr>
+													<td class="text-muted">Website</td>
+													<td>:</td>
+													<td>www.izbeki.com</td>
+												</tr>
+												<tr>
+													<td class="text-muted">Phone</td>
+													<td>:</td>
+													<td>+234 813 917 7681</td>
+												</tr>
+												<tr>
+													<td class="text-muted">Github</td>
+													<td>:</td>
+													<td>github.com/kingisdave</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-footer bg-danger">
+								<a href="#"><i class="fa fa-facebook fa-2x mx-3"></i></a>
+								<a href="#"><i class="fa fa-twitter fa-2x mx-3"></i></a>
+								<a href="#"><i class="fa fa-youtube fa-2x mx-3"></i></a>
+								<a href="#"><i class="fa fa-github fa-2x mx-3"></i></a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col">
+					<span class="bg-danger text-white">About Me</span><hr class="bg-danger">
+					<p class="lead text-justify"> I'm a Graduate in Transport Management Technology at the Federal University of Technology, Minna, Niger state and also a Programmmer and Software/Website Developer currently with the prospect of becoming A.I and Machine Learning expert. I am a very realible individual to work with and also I always seek to gain more knowledge in all areas of technology.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Skill-->
+	<div id="Skills" class="mt-5">
+		<div class="container">
+			<span class="bg-primary text-white">My Skills</span><hr class="bg-primary">
+			<div class="row">
+				<div class="col">
+					<div class="card bg-white">
+						<h3 class="ml-3 my-3">HTML5 Language</h3>
+						<div class="progress mx-3">
+							<div class="progress-bar bg-info" style="width: 95%">95%</div>
+						</div>
+
+						<h3 class="ml-3 my-3">CSS3 Language</h3>
+						<div class="progress mx-3">
+							<div class="progress-bar bg-dark" style="width: 96%">96%</div>
+						</div>
+
+						<h3 class="ml-3 my-3">Bootstrap Language</h3>
+						<div class="progress mx-3">
+							<div class="progress-bar bg-primary" style="width: 98%">98%</div>
+						</div>
+
+						<h3 class="ml-3 my-3">Javascript Programming</h3>
+						<div class="progress mx-3">
+							<div class="progress-bar bg-success" style="width: 90%">90%</div>
+						</div>
+
+						<h3 class="ml-3 my-3">Angular</h3>
+						<div class="progress mx-3">
+							<div class="progress-bar bg-dark" style="width: 70%">70%</div>
+						</div>
+
+						<h3 class="ml-3 my-3">React</h3>
+						<div class="progress mx-3">
+							<div class="progress-bar bg-warning" style="width: 80%">80%</div>
+						</div>
+
+						<h3 class="ml-3 my-3">Vue</h3>
+						<div class="progress mx-3">
+							<div class="progress-bar bg-info" style="width: 85%">85%</div>
+						</div>
+
+						<h3 class="ml-3 my-3">SQL Database</h3>
+						<div class="progress mx-3">
+							<div class="progress-bar bg-primary" style="width: 85%">85%</div>
+						</div>
+
+						<h3 class="ml-3 my-3">PHP Programming</h3>
+						<div class="progress mx-3">
+							<div class="progress-bar bg-success" style="width: 92%">92%</div>
+						</div>
+
+						<h3 class="ml-3 my-3">GitHub Open Source</h3>
+						<div class="progress mx-3">
+							<div class="progress-bar bg-primary" style="width: 89%">89%</div>
+						</div>
+
+						<h3 class="ml-3 my-3">Graphics Design</h3>
+						<div class="progress mx-3">
+							<div class="progress-bar bg-dark" style="width: 65%">65%</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Experience-->
+	<div id="Experience">
+		<div class="container mt-5">
+			<span class="bg-success text-white"> Experience </span> <hr class="bg-success">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="card bg-white">
+						<img src="icons/logo-amazon.png" width="200" height="80" class="img-fluid m-auto py-3">
+						<h3 class="text-center text-danger">I'm an Amazon Marketer</h3>
+						<p class="lead text-justify p-3"> I am an affiliate of Amazon, market and promotes the products and also partner with Amazon for the use of Ads on any website and also on the social media platforms</p>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="card bg-white">
+						<img src="icons/ico-chrome-75.png" width="80" height="20" class="img-fluid m-auto py-3">
+						<h3 class="text-center text-danger">I'm a Google Ads Affiliate</h3>
+						<p class="lead text-justify p-3"> I am an affiliate of google ads, market and promotes the products and also partner with google ads for the use of the Ads on any website and also on the social media platforms</p>
+					</div>
+				</div>
+
+				<div class="col-lg-6 mt-4">
+					<div class="card bg-white">
+						<img src="icons/Youtube.png" width="80" height="20" class="img-fluid m-auto py-3">
+						<h3 class="text-center text-danger">I'm a Graphics Designer</h3>
+						<p class="lead text-justify p-3">I also design simple logos and mockups for website apps and I also design e-flyers and good at creating simple animation videos clips</p>
+					</div>
+				</div>
+
+				<div class="col-lg-6 mt-4">
+					<div class="card bg-white">
+						<img src="icons/logo-cnet.png" width="80" height="20" class="img-fluid m-auto py-3">
+						<h3 class="text-center text-danger">I'm a Digital Marketer</h3>
+						<p class="lead text-justify p-3"> I am a digital marketer with the ability to promote products and services to the public through the use of different platforms, website apps and also on the social media platforms</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--Contact-->
+	<div id="Contact">
+		<div class="container mt-5">
+			<span class="bg-dark text-white">Contact Me</span>  <hr class="bg-dark">
+			<div class="row">
+				<div class="col">
+					<div class="card bg-white">
+						<div class="card-header">
+							<h4 class="my-4">Contact Me on Below</h4>
+							<div class="form-group">
+							<input type="text" placeholder="User Name" class="form-control">
+							</div>
+
+							<div class="form-group mt-5">
+								<input type="text" placeholder="Email" class="form-control">	
+							</div>
+
+							<div class="form-group mt-5">
+								<textarea placeholder="Write Something Here........." class="form-control"></textarea>	
+							</div>
+
+							<div class="form-group mt-5">
+								<button class="btn btn-success text-white">Submit Now</button>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Footer-->
+	<div class="container-fluid bg-dark mt-5">
+		<div class="row">
+			<div class="col">
+				<div class="container">
+					<p class="text-white pt-3 text-center">Copyright &copy;David Ayangunna 2019-2020</p>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
